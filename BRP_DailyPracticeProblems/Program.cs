@@ -6,19 +6,46 @@ namespace BRP_DailyPracticeProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Welcome to BRP Daily Practice Problems");
-            //DecimalToBinary obj1 = new DecimalToBinary();
-            //obj1.Conversion();
-            //Console.WriteLine();
-            //ExtendDecimalToBinary obj2 = new ExtendDecimalToBinary();
-            //obj2.Nibble();
-            //Anagram obj3 = new Anagram();
-            // obj3.AnagramCheck();
-            //PallindromeString obj4 = new PallindromeString();
-            //obj4.CheckPallindrome();
-            //HarmonicNumber.Harmonic();
-            //Sine.SineOfAngle();
-            NewtonMethod.SquareRoot();
+            //ExceptionHandling obj = new ExceptionHandling();
+            //obj.AddTwoNumbers();
+
+            //char i, j;
+            //for (i = 'A'; i <= 'E'; i++)
+            //{
+            //    for (j = 'A'; j <= i; j++)
+            //    {
+            //        Console.Write(i);
+
+            //    }
+            //    Console.WriteLine(" ");
+            //}
+            //Console.WriteLine("");
+            //for (int k=5; k >= 1; k--)
+            //{
+            //    for (int l=1; l <= k; l++)
+            //    {
+            //        Console.Write(l);
+            //    }
+            //    Console.WriteLine("");
+            //}
+
+
+            
+            for (int i=1; i<=5; i++)
+            {
+                for (int j=1; j<=5; j++)
+                {
+                    if ( i==1 || j==1 || i==5 )
+                    {
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        Console.Write("");
+                    }
+                }
+                Console.WriteLine(" ");
+            }
         }
     }
 }
